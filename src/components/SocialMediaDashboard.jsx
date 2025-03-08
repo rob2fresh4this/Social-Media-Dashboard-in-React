@@ -24,7 +24,7 @@ function SocialMediaDashboard() {
 
     return (
         <>
-            <div className='w-[100%] h-[250px] fixed top-0 right-0 hidden md:block' style={{ backgroundColor: topCard }}></div>
+            <div className='w-[100%] h-[250px] fixed top-0 right-0 hidden md:block rounded-full' style={{ backgroundColor: topCard }}></div>
             <div className="flex justify-center md:h-screen" style={{ backgroundColor: bottomCard1 }}>
                 <div className="" style={{ width: "80%" }}>
                     <div className="flex flex-col md:flex-row justify-between pt-[2rem] pb-[2.5rem]">
@@ -32,7 +32,7 @@ function SocialMediaDashboard() {
                             <h1 className='text-2xl font-bold relative' style={{ color: titleColor }}>Social Media Dashboard</h1>
                             <p className='text-[#6D728D] font-bold relative mb-[0.5rem]'>Total Followers: <span>{FollowersInt}</span></p>
                         </div>
-                        <label className="inline-flex items-center me-5 cursor-pointer">
+                        <label className="md:inline-flex md:items-center md:me-5 cursor-pointer flex justify-between">
                             <span className='mr-[8px] text-[#6D728D] font-bold relative'>Dark Mode</span>
                             <input
                                 type="checkbox"
