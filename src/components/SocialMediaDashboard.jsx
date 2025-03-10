@@ -24,7 +24,7 @@ function SocialMediaDashboard() {
 
     return (
         <>
-            <div className='w-[100%] h-[250px] fixed top-0 right-0 hidden md:block rounded-full' style={{ backgroundColor: topCard }}></div>
+            <div className='w-[100%] h-[250px] fixed top-0 right-0 hidden md:block rounded-md' style={{ backgroundColor: topCard }}></div>
             <div className="flex justify-center md:h-screen" style={{ backgroundColor: bottomCard1 }}>
                 <div className="" style={{ width: "80%" }}>
                     <div className="flex flex-col md:flex-row justify-between pt-[2rem] pb-[2.5rem]">
